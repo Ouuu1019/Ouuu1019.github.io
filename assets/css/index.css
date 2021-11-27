@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width:100%;
+    height: 60px;
+    background-color: rgba(0, 255, 255, 0.158);
+    position: relative;
+
+}
+.header .logo a img{
+    position: absolute;
+    width: 69px;
+    height: 28px;
+    left:60px;
+    top: 15px;
+}
+.header .zhuzhan a{
+    position: absolute;
+    margin-top: 15px;
+    left: 120px;
+    vertical-align: bottom;
+    text-decoration: none;
+    color: rgba(35, 146, 197, 0.63);
+    font-weight: bold;
+    font-size: 20px;
+}
+.touxiang img{
+    position: absolute;
+    height: 145px;
+    background: no-repeat;
+    width:auto;
+    left: 1000px;
+}
+.touxiang img:hover{
+    height: 300px;
+    
+}
