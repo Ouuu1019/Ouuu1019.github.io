@@ -26,6 +26,16 @@
     font-weight: bold;
     font-size: 20px;
 }
+.header .fanju a{
+    position: absolute;
+    margin-top: 15px;
+    left: 200px;
+    vertical-align: bottom;
+    text-decoration: none;
+    color: rgba(35, 146, 197, 0.63);
+    font-weight: bold;
+    font-size: 20px;
+}
 .touxiang img{
     position: absolute;
     height: 145px;
