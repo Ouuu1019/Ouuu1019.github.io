@@ -36,14 +36,49 @@
     font-weight: bold;
     font-size: 20px;
 }
+.header .submit .text input{
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    width: 500px;
+    outline: none;
+    border-radius: 5%;
+    left: 500px;
+    border:0;
+    z-index: 999999;
+}
+.header .submit .img{
+    height: 50px;
+    overflow: hidden;
+    margin-left: 480px;
+    top: 5px;
+    position: absolute;
+    z-index: 10;
+    border-radius:3%;
+}
+
+.header .submit .img1{
+    height: 50px;
+    overflow: hidden;
+    margin-left: 480px;
+    top: 5px;
+    position: absolute;
+    z-index: 8;
+    border-radius:3%;
+    
+}
+
+.header .submit .img:hover{
+    z-index: 6;
+}
 .touxiang img{
     position: absolute;
-    height: 145px;
-    background: no-repeat;
+    height:145px;
     width:auto;
-    left: 1000px;
+    left: 1200px;
+    cursor: pointer;
+    top: -5px;
 }
 .touxiang img:hover{
-    height: 300px;
     
 }
