@@ -99,11 +99,12 @@ li{
 .gg{
     position: fixed;
     width: 19px;
-    top: 200px;
-    background-color: rgba(220, 220, 220, 0.5);
+    top: 400px;
+    background-color: rgba(220, 220, 220, 0);
     padding: 10px 6px 10px 10px;
     border-radius: 8%;
     margin-left: -8px;
+    box-shadow: 1px 1px 5px 2px;
 
 }
 .gg a{
