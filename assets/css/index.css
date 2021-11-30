@@ -2,8 +2,26 @@
     padding: 0;
     margin: 0;
 }
+body{
+    width: 1519px;
+    overflow-x: hidden;
+    height: 10000px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+li{
+    list-style: none;
+}
 .header{
-    width:100%;
+    width:1536px;
     height: 60px;
     background-color: rgba(0, 255, 255, 0.158);
     position: relative;
@@ -21,7 +39,6 @@
     margin-top: 15px;
     left: 120px;
     vertical-align: bottom;
-    text-decoration: none;
     color: rgba(35, 146, 197, 0.63);
     font-weight: bold;
     font-size: 20px;
@@ -38,39 +55,38 @@
 }
 .header .submit .text input{
     position: absolute;
-    top: 10px;
-    height: 30px;
-    width: 500px;
+    top: 8px;
+    height: 45px;
+    width: 540px;
     outline: none;
-    border-radius: 5%;
     left: 500px;
     border:0;
     z-index: 999999;
 }
-.header .submit .img{
-    height: 50px;
+.header .submit .tu img{
+    height: 44px;
     overflow: hidden;
     margin-left: 480px;
-    top: 5px;
+    top: 8px;
     position: absolute;
-    z-index: 10;
     border-radius:3%;
+    width: 610px;
 }
-
-.header .submit .img1{
-    height: 50px;
+/*
+.header .submit .tu1 img{
+    height: 44px;
     overflow: hidden;
     margin-left: 480px;
-    top: 5px;
+    top: 8px;
     position: absolute;
-    z-index: 8;
     border-radius:3%;
-    
+    width: 610px;
+}
+.header .submit .tu:hover{
+    display: none;
 }
 
-.header .submit .img:hover{
-    z-index: 6;
-}
+*/
 .touxiang img{
     position: absolute;
     height:145px;
@@ -79,6 +95,42 @@
     cursor: pointer;
     top: -5px;
 }
-.touxiang img:hover{
+.touxiang img:hover {
     
+}
+.gg{
+    position: fixed;
+    width: 19px;
+    top: 200px;
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 10px 6px 10px 10px;
+    border-radius: 8%;
+    margin-left: -8px;
+
+}
+.gg a{
+    color:rgba(255, 0, 0, 0.452);
+}
+.category{
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.category .china{
+   position: absolute;
+    font-size: 20px;
+}
+.category .china li{
+    display: none;
+    margin: 0 0 0 -20px;
+    border: solid 1px rgba(35, 146, 197, 0.63);
+    padding: 10px 20px;
+}
+.category .china:hover li{
+    display: block;
+}
+.category .japan{
+    position: absolute;
+    left: 100px;
+    font-size: 20px;
 }
