@@ -46,19 +46,18 @@ li{
 }
 .header .fanju a{
     position: absolute;
-    margin-top: 5px;
     left: 200px;
     vertical-align: bottom;
     text-decoration: none;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bold;
     font-size: 20px;
-    padding: 10px 20px 19px 20px;
+    padding: 15px 20px 19px 20px;
     transition: box-shadow 1s;
 }
 .header .fanju a:hover{
     box-shadow: 1px 1px 10px 1px;
-    ;
+    
 }
 .header .submit .text input{
     position: absolute;
@@ -144,9 +143,9 @@ li{
     font-size: 20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 19px 20px;
+    padding: 15px 20px 18px 20px;
     transition: box-shadow  1s;
-    
+    margin-top: -5px;
 }
 
 
@@ -160,8 +159,9 @@ li{
     font-size: 20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 19px 20px;
+    padding: 15px 20px 18px 20px;
     transition:  box-shadow 1s;
+    margin-top: -5px;
 }
 .category .japan:hover{
     box-shadow: 2px 1px 10px 1px;
@@ -172,8 +172,9 @@ li{
     font-size:20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 19px 20px;
+    padding: 15px 20px 18px 20px;
     transition: box-shadow 1s;
+    margin-top: -5px;
 }
 .category .manhua:hover{
     box-shadow: 2px 1px 10px 1px;
@@ -184,8 +185,9 @@ li{
     font-size:20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 19px 20px;
+    padding: 15px 20px 18px 20px;
     transition: box-shadow  1s;
+    margin-top: -5px;
 }
 .category .new:hover{
     box-shadow: 2px 1px 10px 1px;
