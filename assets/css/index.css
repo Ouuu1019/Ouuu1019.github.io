@@ -3,9 +3,9 @@
     margin: 0;
 }
 body{
-    width: 1519px;
+    width: 1536rem;
     overflow-x: hidden;
-    height: 10000px;
+    height: 1000px;
 }
 a{
     text-decoration: none;
@@ -23,7 +23,7 @@ li{
 .header{
     width:1536px;
     height: 60px;
-    background-color: rgba(0, 255, 255, 0.158);
+    background-color: rgba(0, 0, 0, 0.637);
     position: relative;
 
 }
@@ -42,35 +42,42 @@ li{
     color: rgba(35, 146, 197, 0.63);
     font-weight: bold;
     font-size: 20px;
+   
 }
 .header .fanju a{
     position: absolute;
-    margin-top: 15px;
+    margin-top: 5px;
     left: 200px;
     vertical-align: bottom;
     text-decoration: none;
-    color: rgba(35, 146, 197, 0.63);
+    color: rgba(0, 225, 255, 0.575);
     font-weight: bold;
     font-size: 20px;
+    padding: 10px 20px 19px 20px;
+    transition: box-shadow 1s;
+}
+.header .fanju a:hover{
+    box-shadow: 1px 1px 10px 1px;
+    ;
 }
 .header .submit .text input{
     position: absolute;
     top: 8px;
-    height: 45px;
-    width: 540px;
+    height: 45px; 
+    width: 153px;
     outline: none;
-    left: 500px;
+    right: 350px;
     border:0;
     z-index: 999999;
 }
 .header .submit .tu img{
-    height: 44px;
+    height: 45px;
     overflow: hidden;
-    margin-left: 480px;
+    margin-left: 1013px;
     top: 8px;
     position: absolute;
-    border-radius:3%;
-    width: 610px;
+    border-radius:1%;
+    width: 230px;
 }
 /*
 .header .submit .tu1 img{
@@ -87,14 +94,29 @@ li{
 }
 
 */
-.touxiang img{
+.header .touxiang img{
     position: absolute;
-    height:145px;
+    height:auto;
     width:auto;
-    left: 1200px;
+    left: 1400px;
     cursor: pointer;
-    top: -5px;
+    top: 15px;
+    color: aliceblue;
 }
+.header .touxiang .denglu label a{
+    position: absolute;
+    font-size: 20px;
+    color: rgba(211, 207, 207, 0.877);
+    right: 150px;
+    top: 15px;
+    cursor:pointer;
+}
+.header .touxiang .denglu label a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+
+
 
 .gg{
     position: fixed;
@@ -108,20 +130,21 @@ li{
 
 }
 .gg a{
-    color:rgba(0, 132, 255, 0.541);
+    color:rgba(217, 255, 0, 0.836);
 }
 .category{
     position: relative;
-    left: 550px;
-    top: 30px;
+    left: 300px;
+    top: 5px;
 }
 .category .china{
    position: absolute;
     font-size: 20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 10px 20px;
-    transition: 2s;
+    padding: 10px 20px 19px 20px;
+    transition: box-shadow  1s;
+    
 }
 
 
@@ -135,8 +158,8 @@ li{
     font-size: 20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 10px 20px;
-    transition: 2s;
+    padding: 10px 20px 19px 20px;
+    transition:  box-shadow 1s;
 }
 .category .japan:hover{
     box-shadow: 2px 1px 10px 1px;
@@ -147,8 +170,8 @@ li{
     font-size:20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 10px 20px;
-    transition: 2s;
+    padding: 10px 20px 19px 20px;
+    transition: box-shadow 1s;
 }
 .category .manhua:hover{
     box-shadow: 2px 1px 10px 1px;
@@ -159,26 +182,33 @@ li{
     font-size:20px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
-    padding: 10px 20px 10px 20px;
-    transition: 2s;
+    padding: 10px 20px 19px 20px;
+    transition: box-shadow  1s;
 }
 .category .new:hover{
     box-shadow: 2px 1px 10px 1px;
 }
 .category .paihangbang{
     position: absolute;
-    left:840px;
+    left:570px;
     font-size:20px;
     font-weight: bolder;
-    box-shadow: 1px 2px 10px 1px;
-    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 2px 20px 1px;
+    padding: 15px 20px 18px 20px;
+    margin-top: -5px;
     border-radius: 8%;
-    margin-top:-5px;
     color: rgba(0, 225, 255, 0.575);
     font-weight: bolder;
     background-color: rgba(109, 205, 237, 0);
-    transition:  2s;
+    transition:background-color 1s,box-shadow 1s;
 }
 .category .paihangbang:hover{
     background-color: rgba(0, 204, 255, 0.137);
+}
+video{
+    position: absolute;
+    height: auto;
+    width: 1582px;
+    top:-150px;
+    z-index: -9999;
 }
