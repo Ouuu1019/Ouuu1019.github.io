@@ -205,10 +205,10 @@ li{
 .category .paihangbang:hover{
     background-color: rgba(0, 204, 255, 0.137);
 }
-video{
+.yuanshen img{
     position: absolute;
     height: auto;
     width: 1582px;
-    top:-150px;
+    top:-300px;
     z-index: -9999;
 }
