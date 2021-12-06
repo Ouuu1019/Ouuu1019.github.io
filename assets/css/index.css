@@ -149,6 +149,12 @@ li{
     position: absolute;
     border-radius:1%;
     width: 230px;
+    filter: grayscale(1);
+    
+}
+.header .submit .tu img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
 }
 /*
 .header .submit .tu1 img{
