@@ -2,6 +2,36 @@
     padding: 0;
     margin: 0;
 }
+.zhuce{
+    background-color: rgba(122, 122, 122, 0.459);
+    width: 2000px;
+    position: fixed;
+    height: 100%;
+    z-index: 9999999;
+}
+.zhuce .kuang{
+    position: fixed;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.774);
+    height: 400px;
+    top: 180px;
+    left:480px;
+    border-radius: 3%;
+    
+}
+.zhuce .kuang .open button{
+    background-color: rgba(56, 70, 82, 0.774);
+    border: 0;
+    border-radius: 3%;
+    padding: 30px 260px 30px 260px;
+    bottom: 30px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 15px;
+    cursor: pointer;
+}
+
 body{
     width: 1536rem;
     overflow-x: hidden;
@@ -213,6 +243,25 @@ li{
     position: absolute;
     height: auto;
     width: 1582px;
-    top:-300px;
+    top:-420px;
     z-index: -9999;
+}
+.box{
+    position: relative;
+    width:1125px;
+    background-color: rgba(207, 0, 0, 0.26);
+    height: 300px;
+    left: 100px;
+    top: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+.box .video{
+    display: inline-flex;
+    width: 260px;
+    height: 140px;
+    background-color: aliceblue;
+    margin:14px 0 12px 12px;
+
 }
